@@ -10,7 +10,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchSubmissions = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/submissions");
+        const response = await axios.get("https://3w-assignment-hazel.vercel.app/submissions");
         setSubmissions(response.data);
       } catch (error) {
         console.error("Error fetching submissions:", error);
