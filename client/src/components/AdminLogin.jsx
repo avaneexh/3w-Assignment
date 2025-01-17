@@ -26,6 +26,7 @@ const AdminLogin = () => {
 
       <div className="w-1/3 p-8 bg-gray-100 shadow-lg rounded">
         <h2 className="text-2xl mb-4">Admin Login</h2>
+        <h2 className="text-xl mb-4">If not responding, Please refresh.</h2>
         <input
           type="text"
           placeholder="Admin ID"

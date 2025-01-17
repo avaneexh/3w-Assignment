@@ -32,6 +32,7 @@ const Dashboard = () => {
   return (
     <div className="p-8">
       <h1 className="text-3xl mb-6 text-center ">Admin Dashboard</h1>
+      <h2 className="text-xl mb-4">If not responding, Please refresh.</h2>
       <button onClick={handleLogout} className="p-2 bg-red-500 text-white rounded mb-4 absolute top-4 right-4">
         Logout
       </button>

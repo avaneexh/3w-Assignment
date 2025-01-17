@@ -15,6 +15,7 @@ const UserPage = () => {
 
       <h1 className="text-2xl mb-4">Welcome to the User Submission Page</h1>
       <p className="text-gray-600 mb-8">You can select multiple images.</p>
+      <h2 className="text-xl mb-4">If not responding, Please refresh.</h2>
 
       {/* Call the UserForm component */}
       <div className="w-screen flex justify-center">
