@@ -31,7 +31,7 @@ const UserForm = () => {
 
     setLoading(true);
     try {
-      await axios.post("https://3w-assignment-hazel.vercel.app/submissions", formData);
+      await axios.post("https://threew-assignment-backend-0hd7.onrender.com/submissions", formData);
       setSuccess(true);
       setTimeout(() => setSuccess(false), 5000);
       setFormData({ name: "", socialHandle: "", images: [] });
