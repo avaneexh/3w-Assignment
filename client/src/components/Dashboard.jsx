@@ -10,7 +10,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchSubmissions = async () => {
       try {
-        const response = await axios.get("https://threew-assignment-backend-0hd7.onrender.com/submissions");
+        const response = await axios.get("https://threew-assignment-backend-0hd7.onrender.com/api/submissions");
         setSubmissions(response.data);
       } catch (error) {
         console.error("Error fetching submissions:", error);
